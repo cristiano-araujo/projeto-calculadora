@@ -125,14 +125,59 @@ footer p{
 
 .texto {
     font-size: 15px;
+    text-align: justify;
 }
+@media only screen and (max-width: 600px) {
+    .container {
+        min-width: 250px;
+        min-height: 200px;
+        padding: 2rem;
+    }
+    #result-container {
+        width: 280px; 
+        height: 700px;
+              
+    }
+    .texto{
+        text-align: justify;
+        
+    }
+
+    #back-btn {
+       margin-top: 80px;
+    }
+}
+
+
 
 @media (min-width:800px){
     
     
     footer{
         font-size: 10px;
+        bottom: fixed;
     }
 
 }
 
+
+@media (min-width: 393px) {
+    .container {
+        min-width: 250px;
+        min-height: 200px;
+        padding: 2rem;
+    }
+    #result-container {
+        width: 280px; 
+        height: 700px;
+              
+    }
+    .texto{
+        text-align: justify;
+        
+    }
+
+    #back-btn {
+       margin-top: 80px;
+    }
+}
