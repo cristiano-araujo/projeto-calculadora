@@ -135,10 +135,10 @@ footer p{
 @media (min-width: 390px){
     #back-btn{
         position: absolute;
-        bottom: 150px;
+        bottom: 200px;
     }
 
-
+}
 .texto {
     font-size: 15px;
 }
