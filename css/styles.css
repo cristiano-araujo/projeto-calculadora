@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Libre Franklin', 'Poppins', sans-serif;
+    color:  #000000;
+}
+
+body {
+    background-image: url(https://shemaysrael.com/wp-content/uploads/2017/11/trigo1-776x310.jpg);
+    background-attachment:fixed;
+    background-size: cover;
+    background-position: center;
+
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    color: #fff;
+}
+
+.hide {
+    display : none !important ;
+}
+
+.container {
+    min-width: 450px;
+    min-height: 300px;
+    background-color:  #133508;
+    padding: 2rem;
+    background-image: linear-gradient(to bottom right, rgb(6, 172, 81), rgb(255, 255, 4));
+    
+}
+
+#calc-container h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+#calc-container p {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.form-input {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.form-control {
+    display: flex;
+    flex-direction: column;
+    flex: 1; 
+    margin-bottom: 1rem;
+}
+/*
+.form-control label {
+    font-weight: bold;
+    margin-bottom: .6rem;
+    color: #ccc;
+}
+*/
+.form-control input {
+    padding: 1rem .5rem;
+}
+
+.action-control {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+    gap: 1rem;
+}
+
+button {
+    text-transform: uppercase;
+    padding: 1rem 1.5rem;
+    background-color: #f44236;
+    border: none;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    opacity: 0.9;
+    flex: 1;
+    border-radius: 5px;
+}
+
+button:hover {
+    opacity: 1;
+}
+
+#clear-btn {
+    background-color: #444;
+}
+
+#result-container {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    height: 81vh;
+}
+
+#result-container h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 18px;
+}
+
+#primicia, #dizimo, p {
+    font-size: 1rem;
+    margin-bottom: 2rem;
+}
+
+#back-btn {
+    align-self: center;
+}
+
+footer {
+    text-align: center;
+    
+
+}
+footer p{
+    font-size:15px ;
+}
+
+
+@media (min-width:800px){
+    footer{
+        font-size: 10px;
+    }
+}
+
+.texto {
+    font-size: 15px;
+}
