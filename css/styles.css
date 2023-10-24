@@ -11,8 +11,6 @@ body {
     background-attachment:fixed;
     background-size: cover;
     background-position: center;
-
-
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -31,7 +29,6 @@ body {
     background-color:  #133508;
     padding: 2rem;
     background-image: linear-gradient(to bottom right, rgb(6, 172, 81), rgb(255, 255, 4));
-    
 }
 
 #calc-container h2 {
@@ -128,15 +125,19 @@ footer p{
 
 
 @media (min-width:800px){
-    bottom{
-        max-height: 10vh;
-    }
+    
     
     footer{
         font-size: 10px;
     }
 
 }
+@media (min-width: 390px){
+    #back-btn{
+        position: absolute;
+        bottom: 150px;
+    }
+
 
 .texto {
     font-size: 15px;
