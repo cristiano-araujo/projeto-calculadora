@@ -123,6 +123,9 @@ footer p{
     font-size:15px ;
 }
 
+.texto {
+    font-size: 15px;
+}
 
 @media (min-width:800px){
     
@@ -132,13 +135,4 @@ footer p{
     }
 
 }
-@media (min-width: 390px){
-    #back-btn{
-        position: absolute;
-        bottom: 200px;
-    }
 
-}
-.texto {
-    font-size: 15px;
-}
